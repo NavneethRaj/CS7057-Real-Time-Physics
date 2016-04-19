@@ -1,0 +1,35 @@
+﻿Build started 01/02/2016 13:57:26.
+     1>Project "D:\Navneeth\SEM_2\CS7057\Assignment_2\Assignment_2\RigidBody\RigidBody\RigidBody.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\Navneeth\SEM_2\CS7057\Assignment_2\Assignment_2\RigidBody\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Rigid\engine.cpp ..\..\..\Rigid\matrix.cpp ..\..\..\Rigid\plane.cpp ..\..\..\Rigid\rigidbody.cpp ..\..\..\Rigid\sin_table.cpp ..\..\..\Rigid\vector.cpp ..\..\..\Rigid\winmain.cpp Source.cpp
+         Source.cpp
+         winmain.cpp
+     1>d:\navneeth\sem_2\cs7057\assignment_2\rigid\winmain.cpp(20): error C2440: 'initializing' : cannot convert from 'const wchar_t [8]' to 'char []'
+                 There is no context in which this conversion is possible
+     1>d:\navneeth\sem_2\cs7057\assignment_2\rigid\winmain.cpp(27): error C2664: 'LoadIconW' : cannot convert parameter 2 from 'const char [10]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\navneeth\sem_2\cs7057\assignment_2\rigid\winmain.cpp(31): error C2065: 'Rigid_Body' : undeclared identifier
+     1>d:\navneeth\sem_2\cs7057\assignment_2\rigid\winmain.cpp(35): error C2065: 'Rigid_Body' : undeclared identifier
+     1>d:\navneeth\sem_2\cs7057\assignment_2\rigid\winmain.cpp(48): error C2065: 'Rigid_Body' : undeclared identifier
+     1>d:\navneeth\sem_2\cs7057\assignment_2\rigid\winmain.cpp(50): error C2065: 'Rigid_Body' : undeclared identifier
+     1>d:\navneeth\sem_2\cs7057\assignment_2\rigid\winmain.cpp(77): error C2065: 'Rigid_Body' : undeclared identifier
+     1>d:\navneeth\sem_2\cs7057\assignment_2\rigid\winmain.cpp(79): error C2065: 'Rigid_Body' : undeclared identifier
+     1>d:\navneeth\sem_2\cs7057\assignment_2\rigid\winmain.cpp(186): error C2664: 'MessageBoxW' : cannot convert parameter 2 from 'const char [25]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\navneeth\sem_2\cs7057\assignment_2\rigid\winmain.cpp(192): error C2664: 'MessageBoxW' : cannot convert parameter 2 from 'const char [22]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         vector.cpp
+         sin_table.cpp
+         rigidbody.cpp
+         plane.cpp
+         matrix.cpp
+         engine.cpp
+     1>d:\navneeth\sem_2\cs7057\assignment_2\rigid\engine.cpp(92): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\navneeth\sem_2\cs7057\assignment_2\rigid\engine.cpp(122): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\navneeth\sem_2\cs7057\assignment_2\rigid\engine.cpp(197): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+     1>Done Building Project "D:\Navneeth\SEM_2\CS7057\Assignment_2\Assignment_2\RigidBody\RigidBody\RigidBody.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.76

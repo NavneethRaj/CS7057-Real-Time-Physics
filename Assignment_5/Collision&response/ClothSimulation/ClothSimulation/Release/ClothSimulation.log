@@ -1,0 +1,23 @@
+﻿Build started 22/02/2016 15:52:38.
+     1>Project "D:\Navneeth\SEM_2\CS7057\Assignment_5\Collision&response\ClothSimulation\ClothSimulation\ClothSimulation.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"..\lib\glew-1.9.0-win32\glew-1.9.0\include" /I..\lib\freeglut\include /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt collision_info.cpp
+         collision_info.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Navneeth\SEM_2\CS7057\Assignment_5\Collision&response\ClothSimulation\Release\ClothSimulation.exe" /NOLOGO /LIBPATH:..\lib\freeglut\lib /LIBPATH:"..\lib\glew-1.9.0-win32\glew-1.9.0\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Navneeth\SEM_2\CS7057\Assignment_5\Collision&response\ClothSimulation\Release\ClothSimulation.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Navneeth\SEM_2\CS7057\Assignment_5\Collision&response\ClothSimulation\Release\ClothSimulation.lib" /MACHINE:X86 /SAFESEH Release\ball.obj
+         Release\cloth.obj
+         Release\collidable.obj
+         Release\collision_detector.obj
+         Release\collision_info.obj
+         Release\collision_resolver.obj
+         Release\euler.obj
+         Release\gl_camera.obj
+         Release\main.obj
+         Release\particle.obj
+         Release\timer.obj
+         ClothSimulation.vcxproj -> D:\Navneeth\SEM_2\CS7057\Assignment_5\Collision&response\ClothSimulation\Release\ClothSimulation.exe
+     1>Done Building Project "D:\Navneeth\SEM_2\CS7057\Assignment_5\Collision&response\ClothSimulation\ClothSimulation\ClothSimulation.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.89

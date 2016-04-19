@@ -1,0 +1,26 @@
+﻿Build started 02/03/2016 16:04:52.
+     1>Project "D:\Navneeth\SEM_2\CS7057\Assignment_3\BroadPhase_1\BroadPhase_1\BroadPhase_1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\Navneeth\SEM_2\CS7057\Assignment_3\libs\glm /ID:\Navneeth\SEM_2\CS7057\Assignment_3\libs\AntTweakBar\include /ID:\Navneeth\SEM_2\CS7057\Assignment_3\libs\assimp\include /ID:\Navneeth\SEM_2\CS7057\Assignment_3\libs\glew\include /I"D:\Navneeth\SEM_2\CS7057\Assignment_3\libs\glut-3.7.6-bin" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\RTP_3.0-master\Files\AABB.cpp" "..\..\RTP_3.0-master\Files\RigidBody.cpp" "..\..\RTP_3.0-master\Files\RigidBodyManager.cpp" "..\..\RTP_3.0-master\Files\main.cpp"
+         AABB.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         main.cpp
+         RigidBodyManager.cpp
+         RigidBody.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Navneeth\SEM_2\CS7057\Assignment_3\BroadPhase_1\Debug\BroadPhase_1.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Navneeth\SEM_2\CS7057\Assignment_3\libs\AntTweakBar\lib /LIBPATH:D:\Navneeth\SEM_2\CS7057\Assignment_3\libs\assimp\lib\x86 /LIBPATH:D:\Navneeth\SEM_2\CS7057\Assignment_3\libs\glew\lib\Release\Win32 AntTweakBar.lib assimp.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Navneeth\SEM_2\CS7057\Assignment_3\BroadPhase_1\Debug\BroadPhase_1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Navneeth\SEM_2\CS7057\Assignment_3\BroadPhase_1\Debug\BroadPhase_1.lib" /MACHINE:X86 Debug\AABB.obj
+         Debug\BoundingSphere.obj
+         Debug\Camera.obj
+         Debug\Effector.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\RigidBody.obj
+         Debug\RigidBodyManager.obj
+         Debug\Shaders.obj
+         BroadPhase_1.vcxproj -> D:\Navneeth\SEM_2\CS7057\Assignment_3\BroadPhase_1\Debug\BroadPhase_1.exe
+     1>Done Building Project "D:\Navneeth\SEM_2\CS7057\Assignment_3\BroadPhase_1\BroadPhase_1\BroadPhase_1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.74

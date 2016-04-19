@@ -1,0 +1,86 @@
+﻿Build started 4/18/2016 5:18:24 PM.
+     1>Project "D:\IET\Modules\SEM2\CS7057\Final_Project\OpenGL_ClothSimulation\OpenGL_Cloth_Simulation.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\IET\Modules\SEM2\CS7057\Final_Project\libs\freeglut\include /ID:\IET\Modules\SEM2\CS7057\Final_Project\libs\glm /ID:\IET\Modules\SEM2\CS7057\Final_Project\libs\glew\include /ZI /nologo /W4 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\iet\modules\sem2\cs7057\final_project\libs\glm\glm\detail\type_vec2.hpp(66): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\iet\modules\sem2\cs7057\final_project\libs\glm\glm\detail\type_vec2.hpp(229) : see reference to class template instantiation 'glm::tvec2<T,P>' being compiled
+     1>d:\iet\modules\sem2\cs7057\final_project\libs\glm\glm\detail\type_vec2.hpp(67): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\iet\modules\sem2\cs7057\final_project\libs\glm\glm\detail\type_vec2.hpp(68): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\iet\modules\sem2\cs7057\final_project\libs\glm\glm\detail\type_vec3.hpp(66): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\iet\modules\sem2\cs7057\final_project\libs\glm\glm\detail\type_vec3.hpp(251) : see reference to class template instantiation 'glm::tvec3<T,P>' being compiled
+     1>d:\iet\modules\sem2\cs7057\final_project\libs\glm\glm\detail\type_vec3.hpp(67): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\iet\modules\sem2\cs7057\final_project\libs\glm\glm\detail\type_vec3.hpp(68): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_glm\cloth_1_5_glm.h(449): warning C4100: 'y' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_glm\cloth_1_5_glm.h(449): warning C4100: 'x' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_glm\cloth_1_5_glm.h(460): warning C4100: 'y' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_glm\cloth_1_5_glm.h(460): warning C4100: 'x' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(46): warning C4005: 'DAMPING' : macro redefinition
+                 d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_glm\cloth_1_5_glm.h(18) : see previous definition of 'DAMPING'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(47): warning C4005: 'TIME_STEPSIZE2' : macro redefinition
+                 d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_glm\cloth_1_5_glm.h(19) : see previous definition of 'TIME_STEPSIZE2'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(48): warning C4005: 'CONSTRAINT_ITERATIONS' : macro redefinition
+                 d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_glm\cloth_1_5_glm.h(20) : see previous definition of 'CONSTRAINT_ITERATIONS'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(148): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(249): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(252): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(255): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(475): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(476): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(494): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(496): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(497): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(546): warning C4100: 'y' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(546): warning C4100: 'x' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(557): warning C4100: 'y' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(557): warning C4100: 'x' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_2_1_shaders\cloth_2_1_shaders.h(20): warning C4005: 'DAMPING' : macro redefinition
+                 d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(46) : see previous definition of 'DAMPING'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_2_1_shaders\cloth_2_1_shaders.h(21): warning C4005: 'TIME_STEPSIZE2' : macro redefinition
+                 d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_1_5_starting_point\cloth_1_5_starting_point.h(47) : see previous definition of 'TIME_STEPSIZE2'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_2_1_shaders\cloth_2_1_shaders.h(450): warning C4100: 'y' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_2_1_shaders\cloth_2_1_shaders.h(450): warning C4100: 'x' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_2_1_shaders\cloth_2_1_shaders.h(461): warning C4100: 'y' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_2_1_shaders\cloth_2_1_shaders.h(461): warning C4100: 'x' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_core_profile\cloth_3_2_core_profile.h(441): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_core_profile\cloth_3_2_core_profile.h(443): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_core_profile\cloth_3_2_core_profile.h(444): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_core_profile\cloth_3_2_core_profile.h(445): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_core_profile\cloth_3_2_core_profile.h(442): warning C4189: 'vertexCount' : local variable is initialized but not referenced
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_core_profile\cloth_3_2_core_profile.h(592): warning C4100: 'y' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_core_profile\cloth_3_2_core_profile.h(592): warning C4100: 'x' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_core_profile\cloth_3_2_core_profile.h(603): warning C4100: 'y' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_core_profile\cloth_3_2_core_profile.h(603): warning C4100: 'x' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_triangle_strips\cloth_3_2_triangle_strips.h(494): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_triangle_strips\cloth_3_2_triangle_strips.h(496): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_triangle_strips\cloth_3_2_triangle_strips.h(497): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_triangle_strips\cloth_3_2_triangle_strips.h(498): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_triangle_strips\cloth_3_2_triangle_strips.h(495): warning C4189: 'vertexCount' : local variable is initialized but not referenced
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_triangle_strips\cloth_3_2_triangle_strips.h(650): warning C4100: 'y' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_triangle_strips\cloth_3_2_triangle_strips.h(650): warning C4100: 'x' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_triangle_strips\cloth_3_2_triangle_strips.h(667): warning C4100: 'y' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_triangle_strips\cloth_3_2_triangle_strips.h(667): warning C4100: 'x' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_ping_pong\cloth_3_2_ping_pong.h(527): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_ping_pong\cloth_3_2_ping_pong.h(529): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_ping_pong\cloth_3_2_ping_pong.h(530): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_ping_pong\cloth_3_2_ping_pong.h(531): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_ping_pong\cloth_3_2_ping_pong.h(528): warning C4189: 'vertexCount' : local variable is initialized but not referenced
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_ping_pong\cloth_3_2_ping_pong.h(683): warning C4100: 'y' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_ping_pong\cloth_3_2_ping_pong.h(683): warning C4100: 'x' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_ping_pong\cloth_3_2_ping_pong.h(700): warning C4100: 'y' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_ping_pong\cloth_3_2_ping_pong.h(700): warning C4100: 'x' : unreferenced formal parameter
+     1>d:\iet\modules\sem2\cs7057\final_project\libs\freeglut\include\gl\freeglut_std.h(618): warning C4505: 'glutCreateMenu_ATEXIT_HACK' : unreferenced local function has been removed
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_core_profile\cloth_3_2_core_profile.h(474): warning C4701: potentially uninitialized local variable 'index' used
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_triangle_strips\cloth_3_2_triangle_strips.h(527): warning C4701: potentially uninitialized local variable 'index' used
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_ping_pong\cloth_3_2_ping_pong.h(560): warning C4701: potentially uninitialized local variable 'index' used
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_triangle_strips\cloth_3_2_triangle_strips.h(325): warning C4701: potentially uninitialized local variable 'index' used
+     1>d:\iet\modules\sem2\cs7057\final_project\opengl_clothsimulation\cloth_3_2_ping_pong\cloth_3_2_ping_pong.h(358): warning C4701: potentially uninitialized local variable 'index' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\IET\Modules\SEM2\CS7057\Final_Project\OpenGL_ClothSimulation\Debug\OpenGL_ClothSimulation.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\IET\Modules\SEM2\CS7057\Final_Project\libs\freeglut\lib /LIBPATH:D:\IET\Modules\SEM2\CS7057\Final_Project\libs\glew\lib\Release\Win32 glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\IET\Modules\SEM2\CS7057\Final_Project\OpenGL_ClothSimulation\Debug\OpenGL_ClothSimulation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\IET\Modules\SEM2\CS7057\Final_Project\OpenGL_ClothSimulation\Debug\OpenGL_ClothSimulation.lib" /MACHINE:X86 Debug\TextResource.obj
+         Debug\main.obj
+         OpenGL_Cloth_Simulation.vcxproj -> D:\IET\Modules\SEM2\CS7057\Final_Project\OpenGL_ClothSimulation\Debug\OpenGL_ClothSimulation.exe
+     1>Done Building Project "D:\IET\Modules\SEM2\CS7057\Final_Project\OpenGL_ClothSimulation\OpenGL_Cloth_Simulation.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.00

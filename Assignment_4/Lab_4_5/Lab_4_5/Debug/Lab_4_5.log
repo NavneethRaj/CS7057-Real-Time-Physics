@@ -1,0 +1,29 @@
+﻿Build started 03/03/2016 13:21:19.
+     1>Project "D:\Navneeth\SEM_2\CS7057\Assignment_4\Lab_4_5\Lab_4_5\Lab_4_5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\Navneeth\SEM_2\CS7057\Assignment_3\libs\freeglut\include\GL /ID:\Navneeth\SEM_2\CS7057\Assignment_3\libs\glm /ID:\Navneeth\SEM_2\CS7057\Assignment_3\libs\assimp\include /ID:\Navneeth\SEM_2\CS7057\Assignment_3\libs\AntTweakBar\include /ID:\Navneeth\SEM_2\CS7057\Assignment_3\libs\glew\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Assignment_4\RTP_Lab4.0\RTP_Lab4.0\Files\main.cpp
+         main.cpp
+     1>d:\navneeth\sem_2\cs7057\assignment_4\rtp_lab4.0\rtp_lab4.0\files\main.cpp(296): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\navneeth\sem_2\cs7057\assignment_4\rtp_lab4.0\rtp_lab4.0\files\main.cpp(299): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\navneeth\sem_2\cs7057\assignment_4\rtp_lab4.0\rtp_lab4.0\files\main.cpp(321): warning C4305: '=' : truncation from '__int64' to 'float'
+     1>d:\navneeth\sem_2\cs7057\assignment_4\rtp_lab4.0\rtp_lab4.0\files\main.cpp(429): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\navneeth\sem_2\cs7057\assignment_4\rtp_lab4.0\rtp_lab4.0\files\main.cpp(455): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\navneeth\sem_2\cs7057\assignment_4\rtp_lab4.0\rtp_lab4.0\files\main.cpp(468): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Navneeth\SEM_2\CS7057\Assignment_4\Lab_4_5\Debug\Lab_4_5.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Navneeth\SEM_2\CS7057\Assignment_3\libs\freeglut\lib /LIBPATH:D:\Navneeth\SEM_2\CS7057\Assignment_3\libs\glew\lib\Release\Win32 /LIBPATH:D:\Navneeth\SEM_2\CS7057\Assignment_3\libs\assimp\lib\x86 /LIBPATH:D:\Navneeth\SEM_2\CS7057\Assignment_3\libs\AntTweakBar\lib assimp.lib freeglut.lib glew32.lib AntTweakBar.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Navneeth\SEM_2\CS7057\Assignment_4\Lab_4_5\Debug\Lab_4_5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Navneeth\SEM_2\CS7057\Assignment_4\Lab_4_5\Debug\Lab_4_5.lib" /MACHINE:X86 Debug\AABB.obj
+         Debug\BoundingSphere.obj
+         Debug\Camera.obj
+         Debug\CollisionPair.obj
+         Debug\ContactModel.obj
+         Debug\Effector.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\RigidBody.obj
+         Debug\RigidBodyManager.obj
+         Debug\Shaders.obj
+         Lab_4_5.vcxproj -> D:\Navneeth\SEM_2\CS7057\Assignment_4\Lab_4_5\Debug\Lab_4_5.exe
+     1>Done Building Project "D:\Navneeth\SEM_2\CS7057\Assignment_4\Lab_4_5\Lab_4_5\Lab_4_5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.83
